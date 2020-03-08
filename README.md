@@ -1,5 +1,7 @@
 # ExoPlayer #
 
+[![ci][1]][2]
+
 ExoPlayer is an application level media player for Android. It provides an
 alternative to Android’s MediaPlayer API for playing audio and video both
 locally and over the Internet. ExoPlayer supports features not currently
@@ -141,3 +143,6 @@ implementation project(':exoplayer-library-ui')
 
 To develop ExoPlayer using Android Studio, simply open the ExoPlayer project in
 the root directory of the repository.
+
+[1]: https://github.com/google/ExoPlayer/workflows/ci/badge.svg
+[2]: https://github.com/google/ExoPlayer/actions
