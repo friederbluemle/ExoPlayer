@@ -12,7 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 gradle.ext.exoplayerRoot = settingsDir
-gradle.ext.exoplayerModulePrefix = 'exoplayer-'
 
 def modulePrefix = ':'
 if (gradle.ext.has('exoplayerModulePrefix')) {
